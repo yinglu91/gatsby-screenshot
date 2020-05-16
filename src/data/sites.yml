@@ -81,25 +81,6 @@
     - Featured
   built_by: Canvas United
   built_by_url: https://www.canvasunited.com/
-- title: The State of European Tech
-  main_url: https://2017.stateofeuropeantech.com/
-  url: https://2017.stateofeuropeantech.com/
-  featured: true
-  categories:
-    - Technology
-    - Featured
-  built_by: Studio Lovelock
-  built_by_url: http://www.studiolovelock.com/
-- title: Hopper
-  main_url: https://www.hopper.com/
-  url: https://www.hopper.com/
-  built_by: Narative
-  built_by_url: https://www.narative.co/
-  featured: true
-  categories:
-    - Technology
-    - App
-    - Featured
 - title: Theodora Warre
   main_url: https://theodorawarre.eu
   url: https://theodorawarre.eu
