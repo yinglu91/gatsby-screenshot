@@ -1,15 +1,113 @@
-- url: https://selenasiri.com/
-  name: Selena Siri, Saprano
-
-- url: https://reactjs.org/
-  name: React
-- url: https://about.sourcegraph.com/
-  name: Sourcegraph
-- url: https://simply.co.za/
-  name: Simply
-- url: https://guide.freecodecamp.org/
-  name: The freeCodeCamp Guide
-- url: https://blog.floydhub.com/
-  name: FloydHub's Blog
-- url: https://docs.mparticle.com/
-  name: mParticle's Documentation
+- title: Selena Siri, Soprano
+  main_url: https://selenasiri.com/
+  url: https://selenasiri.com/
+  description: >
+    Singing, Acting, and Programming
+  featured: true
+  categories:
+    - Singing
+    - Acting
+    - Programming
+  built_by: Selena Siri
+- title: ReactJS
+  main_url: https://reactjs.org/
+  url: https://reactjs.org/
+  source_url: https://github.com/reactjs/reactjs.org
+  featured: true
+  categories:
+    - Web Development
+    - Featured
+    - Documentation
+- title: Flamingo
+  main_url: https://www.shopflamingo.com/
+  url: https://www.shopflamingo.com/
+  description: >
+    Online shop for women's body care and hair removal products.
+  categories:
+    - E-commerce
+    - Featured
+  featured: true
+- title: IDEO
+  url: https://www.ideo.com
+  main_url: https://www.ideo.com/
+  description: >
+    A Global design company committed to creating positive impact.
+  categories:
+    - Agency
+    - Technology
+    - Featured
+    - Consulting
+    - User Experience
+  featured: true
+- title: Airbnb Engineering & Data Science
+  description: >
+    Creative engineers and data scientists building a world where you can belong
+    anywhere
+  main_url: https://airbnb.io/
+  url: https://airbnb.io/
+  categories:
+    - Blog
+    - Gallery
+    - Featured
+  featured: true
+- title: Impossible Foods
+  main_url: https://impossiblefoods.com/
+  url: https://impossiblefoods.com/
+  categories:
+    - Food
+    - Featured
+  featured: true
+- title: Braun
+  description: >
+    Braun offers high performance hair removal and hair care products, including dryers, straighteners, shavers, and more.
+  main_url: https://ca.braun.com/en-ca
+  url: https://ca.braun.com/en-ca
+  categories:
+    - E-commerce
+    - Featured
+  featured: true
+- title: NYC Pride 2019 | WorldPride NYC | Stonewall50
+  main_url: https://2019-worldpride-stonewall50.nycpride.org/
+  url: https://2019-worldpride-stonewall50.nycpride.org/
+  featured: true
+  description: >-
+    Join us in 2019 for NYC Pride, as we welcome WorldPride and mark the 50th
+    Anniversary of the Stonewall Uprising and a half-century of LGBTQ+
+    liberation.
+  categories:
+    - Education
+    - Marketing
+    - Nonprofit
+    - Featured
+  built_by: Canvas United
+  built_by_url: https://www.canvasunited.com/
+- title: The State of European Tech
+  main_url: https://2017.stateofeuropeantech.com/
+  url: https://2017.stateofeuropeantech.com/
+  featured: true
+  categories:
+    - Technology
+    - Featured
+  built_by: Studio Lovelock
+  built_by_url: http://www.studiolovelock.com/
+- title: Hopper
+  main_url: https://www.hopper.com/
+  url: https://www.hopper.com/
+  built_by: Narative
+  built_by_url: https://www.narative.co/
+  featured: true
+  categories:
+    - Technology
+    - App
+    - Featured
+- title: Theodora Warre
+  main_url: https://theodorawarre.eu
+  url: https://theodorawarre.eu
+  description: >-
+    E-commerce site for jewellery designer Theodora Warre, built using Gatsby + Shopify + Prismic + Matter.js
+  categories:
+    - E-commerce
+    - Marketing
+  built_by: Pierre Nel
+  built_by_url: https://pierre.io
+  featured: false

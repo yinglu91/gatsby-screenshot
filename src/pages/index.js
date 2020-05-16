@@ -20,7 +20,7 @@ export default ({ data }) => (
               resolutions={
                 node.childScreenshot.screenshotFile.childImageSharp.resolutions
               }
-              alt={node.name}
+              alt={node.title}
               className={styles.shadow}
             />
           </a>
@@ -36,7 +36,7 @@ export const query = graphql`
       edges {
         node {
           url
-          name
+          title
           childScreenshot {
             screenshotFile {
               childImageSharp {
