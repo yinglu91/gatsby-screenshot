@@ -13,7 +13,7 @@ export default ({ data }) => (
       </h1>
     </div>
     <div className={styles.sites}>
-      {data.allSitesYaml.edges.map(({ node }, index) => (
+      {data.allSitesYaml.nodes.map((node, index) => (
         <div className={styles.site} key={index}>
           <a href={node.url} target="_blank" rel="noopener noreferrer">
             <Img
@@ -33,16 +33,14 @@ export default ({ data }) => (
 export const query = graphql`
   query SitesQuery {
     allSitesYaml {
-      edges {
-        node {
-          url
-          title
-          childScreenshot {
-            screenshotFile {
-              childImageSharp {
-                resolutions(width: 384, height: 288) {
-                  ...GatsbyImageSharpResolutions
-                }
+      nodes {
+        url
+        title
+        childScreenshot {
+          screenshotFile {
+            childImageSharp {
+              resolutions(width: 384, height: 288) {
+                ...GatsbyImageSharpResolutions
               }
             }
           }
