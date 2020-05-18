@@ -2,13 +2,17 @@
 // import { jsx } from "theme-ui"
 // import React, { Fragment } from "react"
 // import { useStaticQuery, graphql } from "gatsby"
-// import Link from "./localized-link"
+// import { Link } from "gatsby"
 // import url from "url"
 // import Img from "gatsby-image"
 // import qs from "qs"
 
-// import { mediaQueries } from "gatsby-design-tokens/dist/theme-gatsbyjs-org"
+// import { mediaQueries } from "gatsby-design-tokens/dist/theme"
 // import Modal from "./modal"
+
+// import { Dialog } from "@reach/dialog"
+// import "@reach/dialog/styles.css"
+
 // import ShareMenu from "./share-menu"
 // import Button from "./button"
 // import Screenshot from "../views/shared/screenshot"
@@ -42,7 +46,7 @@
 //   },
 // }
 
-// const cleanUrl = mainUrl => {
+// const cleanUrl = (mainUrl) => {
 //   const parsed = url.parse(mainUrl)
 //   let path = parsed.pathname
 //   if (path[path.length - 1] === `/`) path = path.slice(0, path.length - 1)
@@ -60,10 +64,10 @@
 //   >
 //     <span
 //       sx={{
-//         height: t => t.space[5],
+//         height: (t) => t.space[5],
 //         m: 0,
 //         mr: 2,
-//         width: t => t.space[5],
+//         width: (t) => t.space[5],
 //       }}
 //     >
 //       <FeaturedIcon />
@@ -122,7 +126,7 @@
 //   `)
 
 //   const sites = filterByCategories(allSitesYaml.nodes, filters)
-//   const currentIndex = sites.findIndex(node => node.fields.slug === item)
+//   const currentIndex = sites.findIndex((node) => node.fields.slug === item)
 //   const nextSite = sites[(currentIndex + 1) % sites.length]
 //   const previousSite =
 //     sites[currentIndex === 0 ? sites.length - 1 : currentIndex - 1]
@@ -381,9 +385,7 @@
 
 import React from "react"
 
-const ShowcaseDetails = (props) => {
-  console.log(props)
-
+const ShowcaseDetails = () => {
   return <div>hi from ShowcaseDetails</div>
 }
 

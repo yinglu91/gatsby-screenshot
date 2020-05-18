@@ -1,87 +1,75 @@
-- title: Selena Siri, Soprano
-  main_url: https://selenasiri.com/
-  url: https://selenasiri.com/
-  source_url: https://selenasiri.com/
-  description: >
-    Singing, Acting, and Programming
+- title: Aloha Guides, LLC (SUP Lessons-Monmouth County)
+  main_url: http://aloha-guides.com/
+  url: http://aloha-guides.com/
+  source_url: http://aloha-guides.com/
   featured: true
   categories:
-    - Singing
-    - Acting
-    - Programming
-  built_by: Selena Siri
-- title: ReactJS
-  main_url: https://reactjs.org/
-  url: https://reactjs.org/
-  source_url: https://github.com/reactjs/reactjs.org
+    - SUP Lessons
+
+- title: Greenhat Kiteboarding (Kiteboard Lessons-Neptune)
+  main_url: https://greenhatkiteboarding.com/
+  url: https://greenhatkiteboarding.com/
+  source_url: https://greenhatkiteboarding.com/
   featured: true
   categories:
-    - Web Development
-    - Featured
-    - Documentation
-- title: Flamingo
-  main_url: https://www.shopflamingo.com/
-  url: https://www.shopflamingo.com/
-  description: >
-    Online shop for women's body care and hair removal products.
-  categories:
-    - E-commerce
-    - Featured
+    - GREEN HAT KITEBOARDING
+
+- title: Aqua Vida SUP Yoga (Long Branch - Philadelphia)
+  main_url: https://aquavida.com/
+  url: https://aquavida.com/
+  source_url: https://aquavida.com/
   featured: true
-- title: IDEO
-  url: https://www.ideo.com
-  main_url: https://www.ideo.com/
-  description: >
-    A Global design company committed to creating positive impact.
   categories:
-    - Agency
-    - Technology
-    - Featured
-    - Consulting
-    - User Experience
+    - Aqua Vida SUP Yoga
+
+- title: WindsurfResource.com (Launch Site Information)
+  main_url: http://windsurfresource.com/
+  url: http://windsurfresource.com/
+  source_url: http://windsurfresource.com/
   featured: true
-- title: Airbnb Engineering & Data Science
-  description: >
-    Creative engineers and data scientists building a world where you can belong
-    anywhere
-  main_url: https://airbnb.io/
-  url: https://airbnb.io/
   categories:
-    - Blog
-    - Gallery
-    - Featured
+    - Windsurf Resource
+
+- title: windsurfnj
+  main_url: http://windsurfnj.org/index.htm
+  url: http://windsurfnj.org/index.htm
+  source_url: http://windsurfnj.org/index.htm
   featured: true
-- title: Impossible Foods
-  main_url: https://impossiblefoods.com/
-  url: https://impossiblefoods.com/
   categories:
-    - Food
-    - Featured
+    - windsurfnj
+
+- title: NJWWA's YouTube Channel
+  main_url: https://www.youtube.com/user/NewJerseyWindsurfing
+  url: https://www.youtube.com/user/NewJerseyWindsurfing
+  source_url: https://www.youtube.com/user/NewJerseyWindsurfing
   featured: true
-- title: Braun
-  description: >
-    Braun offers high performance hair removal and hair care products, including dryers, straighteners, shavers, and more.
-  main_url: https://ca.braun.com/en-ca
-  url: https://ca.braun.com/en-ca
   categories:
-    - E-commerce
-    - Featured
+    - NJWWA's YouTube Channel
+
+- title: Lakes Bay Recreation Association (LBRA)
+  main_url: http://www.lakesbayrec.org/
+  url: http://www.lakesbayrec.org/
+  source_url: http://www.lakesbayrec.org/
   featured: true
-- title: NYC Pride 2019 | WorldPride NYC | Stonewall50
-  main_url: https://2019-worldpride-stonewall50.nycpride.org/
-  url: https://2019-worldpride-stonewall50.nycpride.org/
-  featured: true
-  description: >-
-    Join us in 2019 for NYC Pride, as we welcome WorldPride and mark the 50th
-    Anniversary of the Stonewall Uprising and a half-century of LGBTQ+
-    liberation.
   categories:
-    - Education
-    - Marketing
-    - Nonprofit
-    - Featured
-  built_by: Canvas United
-  built_by_url: https://www.canvasunited.com/
+    - Lakes Bay Recreation Association (LBRA)
+
+- title: Baltimore Area Boardsailing Association (BABA)
+  main_url: https://windsurfbaba.org/
+  url: https://windsurfbaba.org/
+  source_url: https://windsurfbaba.org/
+  featured: true
+  categories:
+    - Baltimore Area Boardsailing Association (BABA)
+
+- title: United States Windsurfing Association (USWA)
+  main_url: http://www.uswindsurfing.org/
+  url: http://www.uswindsurfing.org/
+  source_url: http://www.uswindsurfing.org/
+  featured: true
+  categories:
+    - United States Windsurfing Association (USWA)
+
 - title: Theodora Warre
   main_url: https://theodorawarre.eu
   url: https://theodorawarre.eu

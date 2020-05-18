@@ -3,7 +3,6 @@ module.exports = {
   plugins: [
     "gatsby-transformer-screenshot",
     "gatsby-transformer-yaml",
-
     {
       resolve: "gatsby-source-filesystem",
       options: {

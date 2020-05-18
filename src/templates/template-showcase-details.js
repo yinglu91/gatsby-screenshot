@@ -3,12 +3,15 @@ import { graphql } from "gatsby"
 
 import ShowcaseDetails from "../components/showcase-details"
 
-export default function ShowcaseTemplate({ data, location }) {
-  const isModal =
-    location.state && location.state.isModal && window.innerWidth > 750
+const ShowcaseTemplate = ({ data, location }) => {
+  console.log("YYYYY", location)
+  const isModal = window.innerWidth > 750
+  // location.state && location.state.isModal && window.innerWidth > 750
 
   const categories = data.sitesYaml.categories || []
 
+  console.log("YYYYY isModal=", isModal)
+  console.log("YYYYY categories=", categories)
   /*
    * This shouldn't ever happen due to filtering on hasScreenshot field
    * However, it appears to break Gatsby Build
@@ -33,6 +36,8 @@ export default function ShowcaseTemplate({ data, location }) {
   )
 }
 
+export default ShowcaseTemplate
+
 export const pageQuery = graphql`
   fragment ScreenshotDetails on ImageSharp {
     fluid(maxWidth: 700) {
@@ -50,8 +55,6 @@ export const pageQuery = graphql`
       main_url
       featured
       categories
-      built_by
-      built_by_url
       source_url
       description
       childScreenshot {
